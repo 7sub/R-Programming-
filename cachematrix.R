@@ -2,7 +2,7 @@
 ## > source("cachematrix.R")    load cachematrix.R program
 ## > To test the functions
 ## > b <- makeCacheMatrix()     create makeCacheMatrix function
-## > b$set(matrix(1:4, 4, 4))   create matrix in working environment
+## > b$set(matrix(1:4, 2, 2))   create matrix in working environment
 ## > cacheSolve(b)              First run returns inverted matrix from working environment
 ##
 ##      [,1] [,2]               Result returns
