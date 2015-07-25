@@ -1,6 +1,6 @@
 
-
-## > source("cachematrix.R")    load R program
+## > source("cachematrix.R")    load cachematrix.R program
+## > Example to test the functions
 ## > a <- makeCacheMatrix()     create functions
 ## > a$set(matrix(1:4, 2, 2))   create matrix in working environment
 ## > cacheSolve(a)              1st run returns inverted matrix
