@@ -44,10 +44,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve calcluates the inverse of the matrix created in makeCacheMatrix
+## cacheSolve calculates the inverse of the matrix created in makeCacheMatrix
 ## If the inverted matrix does not exist in cache,
-## it it created in the working environment and it's inverted value
-## is stored in cache
+## it is created in the working environment and it's inverted value
+## stored in cache
 cacheSolve <- function(x, ...) {
         ## attempt to get the inverse of the matrix stored in cache
         cache <- x$getInverse()
